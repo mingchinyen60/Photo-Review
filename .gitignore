@@ -1,0 +1,19 @@
+# Database & large scan indexes (avoid exceeding GitHub 100MB limit)
+photo_index.db
+*.db
+
+# Large migration manifests & runtime logs
+*.jsonl
+*.log
+
+# Python cache & virtualenvs
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# OS metadata
+.DS_Store
+Thumbs.db
